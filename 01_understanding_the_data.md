@@ -54,7 +54,7 @@ dataset. I need to check the timing and definitions in the files.
 - Are any values missing?
 - Does the same participant appear in multiple rows?
 
-## My findings
+## My findings (OLD)
 
 I have not inspected the downloaded file yet.
 
@@ -63,6 +63,32 @@ Meaning of one row:
 Sleep variable and units:
 Stress variable and scale:
 Questions I still have:
+
+## update to my findings:
+### First inspection results
+
+- The dataset contains 3,112 records and 19 columns.
+- There are 525 unique participants.
+- A participant can have records from multiple weeks.
+- `id` identifies the participant.
+- `week` identifies the study week.
+- `pss` contains the reported stress score.
+
+### What my code does
+
+My script opens the CSV, counts rows and columns, displays
+the first three records, and counts unique participant IDs.
+
+No machine-learning model has been trained yet.
+
+### What I learned about running Python
+
+I write Python code in the `.py` file and save it.
+Then I run the whole file from the terminal with:
+
+python3 01_inspect_data.py
+
+The CSV must be in the same folder as the script.
 
 ## Important distinction
 
