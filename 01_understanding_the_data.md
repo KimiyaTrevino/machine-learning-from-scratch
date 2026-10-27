@@ -1,4 +1,4 @@
-# Lesson 1: Understadning My Dataset
+# Lesson 1: Understanding My Dataset
 ## What am I trying to learn?
 
 Can sleep measurements help predict reported stress?
